@@ -1,9 +1,7 @@
-# A boilerplate app
+# Events list MVC
 
-This app is a boilerplate for JS application based on ES6 modules, MVC pattern and a mocked database with json-server.
+Events list written in vanilla JS following the MVC pattern.
 
 ## How to run
 - `npm start` - run the app in the dev mode
-- `npm run build` - build the app
-- `npm test` - run tests
-- `npm run server` - run a json-http server
+- `npm run dev` - build the in development mode

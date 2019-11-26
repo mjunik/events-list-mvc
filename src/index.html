@@ -7,11 +7,27 @@
     <title>JS Modules and JSON server boilerplate</title>
 </head>
 <body>
-    <h1 id="header">JS Modules, MVC and JSON server boilerplate</h1>
+<form>
+    <h1>Add new event</h1>
 
-    <section>
-        <h2>Books:</h2>
-        <ul id="js-books"></ul>
-    </section>
+    <div>
+        <label for="todo-input">Title</label>
+        <input type="text" id="todo-input">
+    </div>
+
+    <div>
+        <label for="todo-date">Date</label>
+        <input type="date" id="todo-date">
+    </div>
+
+    <button type="submit">Add me</button>
+</form>
+
+<h2>Events:</h2>
+<ul id="todo-list"></ul>
+
+<h2>Upcoming events:</h2>
+<ul id="todo-upcoming"></ul>
+
 </body>
 </html>
